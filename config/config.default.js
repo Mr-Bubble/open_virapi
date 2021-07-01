@@ -15,9 +15,9 @@ module.exports = appInfo => {
    **/
   const config = {
     mongoose: {
-      // url: 'mongodb://127.0.0.1:27017/open_virapi_db',
+      url: 'mongodb://127.0.0.1:27017/local_virapi_db',
       options: {
-        // useMongoClient: true,
+        useMongoClient: true,
         autoReconnect: true,
         reconnectTries: Number.MAX_VALUE,
         bufferMaxEntries: 0,

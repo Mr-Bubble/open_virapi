@@ -14,7 +14,7 @@ class InterfaceService extends Service {
     super(ctx);
 
     // 单应用最多接口数
-    this.maxApiCount = 30;
+    this.maxApiCount = 1000;
 
     this.validateRules = {
       app_id: { type: 'string' },

@@ -13,7 +13,7 @@ class ApplicationService extends Service {
     super(ctx);
 
     // 单账号用户最多可创建应用数
-    this.maxAppCount = 20;
+    this.maxAppCount = 200;
 
     this.rules = {
       uid: { type: 'object', required: true, allowEmpty: false },
